@@ -125,7 +125,7 @@ body {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
 	color:black;
 	cursor: default;
@@ -205,12 +205,12 @@ body {
 
 .cardContainer:not(.flipped) > .cardContainer,
 .cardContainer:hover:not(.flipped) > .cardContainer:hover {
-	margin-top: 18px;
+	margin-top: 42px;
 }
 
 .cardContainer:hover:not(.flipped) > .cardContainer,
 .cardContainer.selected > .cardContainer {
-	margin-top: 32px;
+	margin-top: 42px;
 }
 
 #waste > #deckContainer > #deck > .cardContainer .cardContainer
